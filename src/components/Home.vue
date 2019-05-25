@@ -2,22 +2,23 @@
   <div>
     <h1 id="header_title">I am Tetsunari Sumiyoshi</h1>
     <hr>
-    <profile></profile>
-    <works></works>
-    <contactme></contactme>
+    <Profile></Profile>
+    <Works></Works>
+    <ContactMe></ContactMe>
   </div>
 </template>
 
 <script>
-import profile    from '@/components/Profile.vue'
-import contactme  from '@/components/ContactMe.vue'
-import works      from '@/components/Works.vue'
+import Profile    from '@/components/Profile'
+import ContactMe  from '@/components/ContactMe'
+import Works      from '@/components/Works'
 
 export default {
+  name: 'Home',
   components: {
-    profile,
-    contactme,
-    works
+    Profile,
+    ContactMe,
+    Works
   }
 }
 </script>
