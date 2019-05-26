@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" :style="{ 'background-image': 'url(' + imageSrc + ')' }">
     <PageHeader></PageHeader>
     <router-view/>
   </div>
@@ -12,6 +12,11 @@ import PageHeader from '@/components/PageHeader.vue'
 
 export default {
   name: 'App',
+  data () {
+    return {
+      imageSrc: require("@/assets/OI000001.png")
+    }
+  },
   components: {
     PageHeader
   }
@@ -25,7 +30,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background: no-repeat center url("./img/OI000001.png");
+  background: no-repeat center;
   height: 100vh;
 }
 </style>
