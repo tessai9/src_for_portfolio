@@ -1,5 +1,5 @@
 <template>
-  <div id="app" :style="{ 'background-image': 'url(' + imageSrc + ')' }">
+  <div id="app" :style="{ 'background-image': 'url(' + backgroundImageSrc + ')' }">
     <PageHeader></PageHeader>
     <router-view/>
   </div>
@@ -14,7 +14,7 @@ export default {
   name: 'App',
   data () {
     return {
-      imageSrc: require("@/assets/OI000001.png")
+      backgroundImageSrc: require("@/assets/OI000001.png")
     }
   },
   components: {
