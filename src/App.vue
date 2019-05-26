@@ -25,8 +25,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background: no-repeat center url("./assets/OI000001.png");
+  background: no-repeat center url("./img/OI000001.png");
   height: 100vh;
-  /* margin-top: 60px; */
 }
 </style>
