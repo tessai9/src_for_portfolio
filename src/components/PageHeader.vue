@@ -1,7 +1,7 @@
 <template>
   <div>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <router-link class="nav-item nav-link navbar-brand" to="/">Portfolio</router-link>
-    </nav>
+    <b-navbar toggleable="lg" type="dark" variant="dark">
+      <b-navbar-brand href="#">Portfolio</b-navbar-brand>
+    </b-navbar>
   </div>
 </template>

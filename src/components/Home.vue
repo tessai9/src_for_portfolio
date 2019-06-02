@@ -25,6 +25,8 @@ export default {
 
 <style>
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+
 
 #header_title {
   font-family: 'Alfa Slab One', cursive;
@@ -35,6 +37,10 @@ export default {
 .topics {
   color: #fff;
   font-size: 50px;
+}
+
+.section_title {
+  font-family: 'Audiowide', cursive;
 }
 
 hr {

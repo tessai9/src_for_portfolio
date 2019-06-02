@@ -1,6 +1,5 @@
 <template>
   <div id="app" :style="{ 'background-image': 'url(' + backgroundImageSrc + ')' }">
-    <PageHeader></PageHeader>
     <router-view/>
   </div>
 </template>
@@ -32,5 +31,6 @@ export default {
   color: #2c3e50;
   background: no-repeat center;
   height: 100vh;
+  width: 100vw;
 }
 </style>
