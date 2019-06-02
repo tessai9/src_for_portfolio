@@ -5,10 +5,11 @@
         <h1 class="center section_title">Profile</h1>
         <b-img class="profile_img" :src="profileImg" rounded="circle"></b-img>
         <p class="contents_text text-left">
-          兵庫県在住のSE<br>
+          今年（2019年）で社会人4年目になる兵庫県在住のエンジニア<br>
           LAPP製の業務システム会社へ2016年に新卒で入社し、2年半ほど保守／開発を担当したのちSES会社へ転職。<br>
           現在、常駐先の現場にてC++ ＋ DB2製の業務システムの保守／開発を担当。<br>
-          <br>
+        </p>
+        <p class="contents_text text-left">
           別途、三宮で活動するコミュニティ 三宮.dev を運営中。<br>
           月一ペースで勉強会を開催。
         </p>
