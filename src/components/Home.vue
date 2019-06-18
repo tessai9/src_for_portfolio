@@ -2,7 +2,9 @@
   <div>
     <h1 id="header_title">I am Tetsunari Sumiyoshi</h1>
     <hr>
-    <Profile></Profile>
+    <b-container fluid>
+      <Profile></Profile>
+    </b-container>
     <Works></Works>
     <ContactMe></ContactMe>
   </div>
@@ -29,18 +31,23 @@ export default {
 
 
 #header_title {
+  padding-top: 3px;
   font-family: 'Alfa Slab One', cursive;
   color: #fff;
-  font-size: 70px;
+  font-size: 6vw;
 }
 
 .topics {
   color: #fff;
-  font-size: 50px;
+  margin-top: 20px;
 }
 
 .section_title {
   font-family: 'Audiowide', cursive;
+}
+
+.icon {
+  font-size: 50px;
 }
 
 hr {

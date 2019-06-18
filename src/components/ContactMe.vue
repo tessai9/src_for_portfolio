@@ -1,8 +1,10 @@
 <template>
-  <div id="contact" class="topics">
-    <h1 class="section_title">Contact me</h1>
-    <ion-icon name="mail" v-b-tooltip.hover title="Send a mail" v-on:click="openMailer('shimeji9@gmail.com')"></ion-icon>
-  </div>
+  <section>
+    <div id="contact" class="topics">
+      <h1 class="section_title">Contact me</h1>
+      <ion-icon name="mail" class="icon" v-b-tooltip.hover title="Send a mail" v-on:click="openMailer('shimeji9@gmail.com')"></ion-icon>
+    </div>
+  </section>
 </template>
 
 <script>
