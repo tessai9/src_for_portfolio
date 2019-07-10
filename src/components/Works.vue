@@ -19,3 +19,13 @@ export default {
   }
 }
 </script>
+
+<style>
+.icon {
+  font-size: 50px;
+}
+
+.icon:hover {
+  transform: scale(1.5);
+}
+</style>

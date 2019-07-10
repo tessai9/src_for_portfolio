@@ -46,10 +46,6 @@ export default {
   font-family: 'Audiowide', cursive;
 }
 
-.icon {
-  font-size: 50px;
-}
-
 hr {
   background-color: #fff;
 }
