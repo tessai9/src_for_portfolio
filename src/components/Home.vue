@@ -7,6 +7,10 @@
     </b-container>
     <Works></Works>
     <ContactMe></ContactMe>
+    <b-modal id="old_portfolio" title="ここは古いポートフォリオです">
+      <p>このポートフォリオは旧版です。もう更新されていません。</p>
+      <p>新しいポートフォリオは<a href="https://tessai9.github.io/portfolio_v2/">こちら</a>です。</p>
+    </b-modal>
   </div>
 </template>
 
@@ -17,6 +21,9 @@ import Works      from '@/components/Works'
 
 export default {
   name: 'Home',
+  mounted() {
+this.$bvModal.show('old_portfolio')
+  },
   components: {
     Profile,
     ContactMe,
